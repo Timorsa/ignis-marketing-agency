@@ -100,3 +100,15 @@ export const handleCityReturn = target => {
     skewY: 0
   });
 };
+
+export const staggerGrid = gridArr => {
+  gsap.from(gridArr, {
+    duration: 1.2,
+    y: 900,
+    delay: 0.5,
+    ease: 'power3.inOut',
+    stagger: {
+      amount: 0.3
+    }
+  });
+};

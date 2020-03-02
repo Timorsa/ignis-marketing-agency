@@ -13,18 +13,18 @@ import {
   staggerRevealClose
 } from './Animations';
 
-import dallas from '../images/dallas.webp';
-import austin from '../images/austin.webp';
-import newyork from '../images/newyork.webp';
-import sanfrancisco from '../images/sanfrancisco.webp';
-import beijing from '../images/beijing.webp';
+import telAviv from '../images/tel-aviv.jpg';
+import haifa from '../images/haifa.jpg';
+import jerusalem from '../images/jerusalem.jpg';
+import moscow from '../images/moscow.jpg';
+import vienna from '../images/vienna.jpg';
 
 const cities = [
-  { name: 'Dallas', image: dallas },
-  { name: 'Austin', image: austin },
-  { name: 'New York', image: newyork },
-  { name: 'San Francisco', image: sanfrancisco },
-  { name: 'Beijing', image: beijing }
+  { name: 'Tel-Aviv', image: telAviv },
+  { name: 'Haifa', image: haifa },
+  { name: 'Jerusalem', image: jerusalem },
+  { name: 'Moscow', image: moscow },
+  { name: 'Vienna', image: vienna }
 ];
 
 const Hamburger = ({ state }) => {
@@ -115,10 +115,13 @@ const Hamburger = ({ state }) => {
               <div ref={el => (info = el)} className="info">
                 <h3>Our Promise</h3>
                 <p>
-                  The passage experienced a surge in popularity during the 1960s
-                  when Letraset used it on their dry-transfer sheets, and again
-                  during the 90s as desktop publishers bundled the text with
-                  their software.
+                  <strong>
+                    We understand you, guid you and help you succeed
+                  </strong>
+                  <br />
+                  Our service offering brings together creativity and
+                  exceptional business results. For us, the two are inseparable.
+                  It’s that simple.
                 </p>
               </div>
               <div className="locations">
